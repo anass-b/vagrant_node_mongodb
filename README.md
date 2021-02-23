@@ -1,0 +1,1 @@
+# Vagrant + Node.js + MongoDB
