@@ -1,16 +1,6 @@
 # Install oh-my-zsh dependencies
 apt-get --yes install zsh
 apt-get --yes install git
-#sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
-# Install node.js manually
-#cd /opt
-#sudo wget https://nodejs.org/dist/v4.1.1/node-v4.1.1-linux-x64.tar.gz
-#sudo tar xzf node-v4.1.1-linux-x64.tar.gz
-#rm node-v4.1.1-linux-x64.tar.gz
-#cd /usr/local/bin
-#sudo ln -s /opt/node-v4.1.1-linux-x64/bin/node .
-#sudo ln -s /opt/node-v4.1.1-linux-x64/lib/node_modules/npm/bin/npm-cli.js npm
 
 # Install node-js using official repo
 curl --silent --location https://deb.nodesource.com/setup_4.x | sudo bash -
